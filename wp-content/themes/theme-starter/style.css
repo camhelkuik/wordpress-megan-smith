@@ -1,0 +1,349 @@
+/*
+Theme Name: Megan Smith Website
+Author: Cameron Helkuik
+Description: Theme created for Megan Smith
+Version: 1.0.0
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+/*  background-image: url("assets/light-grey-floral-motif.png");*/
+  background-color: #521829;
+  border-top: solid 20px #330C0C;
+  border-bottom: solid 20px #330C0C;
+  border-style: double;
+  margin: 0px 0 0px 0;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #330C0C;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;  
+}
+
+.border {
+  width: 100%;
+}
+
+.title {
+  background-color: #DCD0B8;
+  font-family: 'Raleway', sans-serif;
+  padding: 0px 10px 1px 13px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 4px #330C0C;
+  border-right: solid 4px #330C0C;
+  border-left: solid 4px #330C0C; 
+  text-align: center; 
+}
+
+.title h1{
+  margin-bottom: 5px;
+}
+
+.nav {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #587D2E;
+  float: left;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/*.nav--sub{
+list-style-type: none;
+display: inline-block;
+}
+
+.nav ul {
+list-style-type: none;
+}*/
+
+.nav li{
+  display: inline;
+  margin: auto 5px auto 5px;
+}
+
+.corner-left {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 41px;
+  border-bottom: 10px solid transparent;
+  border-top: 0px solid transparent;
+  border-right: 10px solid #330C0C;
+}
+
+.corner-right {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  top: 41px;
+  border-bottom: 10px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 10px solid #330C0C;
+}
+
+.couch {
+  margin-top: 10px;
+  margin-bottom: -11px;
+}
+
+.content-div, .about, .client, .contact, .experience, .presentations, .specializations{
+  background-color: #DCD0B8;
+  font-family: 'Raleway', sans-serif;
+  padding: 1px 10px 10px 10px;
+  margin-top: 25px;
+  border: solid 15px #330C0C;
+  border-style: double;
+  text-align: center;
+}
+
+.about--pic {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about p , .content-div p, .client p, .client li{
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  background-color: #587D2E;
+  width: 80%;
+  position: relative;
+  padding: 10px 0px 10px 0px;
+  margin: -26px auto 20px auto;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+footer li {
+  color: white;
+  margin: auto 5px auto 5px;
+  display: inline-block;
+}
+
+.footer-left {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 10px solid #330C0C;
+}
+
+.footer-right {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 10px solid #330C0C;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #330C0C;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Sliding images*/
+
+.jumbotron{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.slide{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+  max-width: 100%;
+  max-height: 100%;
+  border: solid 1px;
+}
+
+img.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+}
+.next, .prev{
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 50%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+@media (min-width: 1065px){
+  .about--pic {
+      width: 75%;
+  }
+  
+  .border {
+      width: 60%;
+  }
+  
+  .couch {
+      width: 75%;
+  }
+  
+}
+
+@media (min-width: 825px){
+  .border {
+      width: 70%;
+  }
+  
+  .nav li {
+    font-size: 20px;
+  }
+  
+  .about--pic {
+      width: 80%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .couch {
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: 15px;
+  }
+  
+  .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
+      border: solid 25px #330C0C;
+      border-style: double;
+      margin-top: 16px;
+      margin-bottom: -30px;
+      
+  }
+  
+  footer{
+    margin-top: -13px;
+  }
+  
+  .corner-left {
+    top: 46px;
+    border-bottom: 25px solid transparent;
+    border-top: 0px solid transparent;
+    border-right: 25px solid #330C0C;
+  }
+
+  .corner-right {
+    top: 46px;
+    border-bottom: 25px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 25px solid #330C0C;
+  }
+  
+  .footer-right {
+    top: -25px;
+    border-top: 25px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 25px solid #330C0C;
+  }
+  
+  .footer-left {
+    top: -25px;
+    border-top: 25px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 25px solid #330C0C;
+  }
+
+}
+
+@media (max-width: 465px){
+  .nav li {
+      font-size: 12px;
+  }
+  
+
+}
+
+@media (max-width: 355px){
+  .title h1{
+    font-size: 25px;
+  }
+  
+  .nav li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 312px){
+  .title h1{
+    font-size: 22px;
+  }
+}
