@@ -24,15 +24,20 @@
   
     <div class="title">
       <h1>Megan Smith Psychotherapy, PC</h1>
-      <img class="border" src="/assets/divider12.png">
-      
+      <img class="border" src="/assets/divider12.png"> 
     </div>
 
-	<div><?php bloginfo('name'); ?></div>
-  <?php bloginfo( 'description' ); ?>
-
-	<nav>
-		<?php wp_nav_menu(); ?>
+    <nav class="nav">
+      <?php wp_nav_menu(array(
+      'theme_location'  => 'primary',
+      'container'       => false,
+      'menu_id'         => 'menu',
+      'before'          => '',
+      'after'           => '',
+      'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s<div class="clear"></div></ul>',
+      'depth'           => 0,
+      'walker'          => ''
+    )); ?>
     
     <span class="corner-left"></span>
     <span class="corner-right"></span>
