@@ -1,10 +1,3 @@
-/*
-Theme Name: Megan Smith Website
-Author: Cameron Helkuik
-Description: Theme created for Megan Smith
-Version: 1.0.0
-*/
-
 html {
   box-sizing: border-box;
 }
@@ -14,7 +7,8 @@ html {
 
 body {
 /*  background-image: url("assets/light-grey-floral-motif.png");*/
-  background-color: #521829;
+/*  background-color: #521829;*/
+  background-color:#DCD0B8;
   border-top: solid 20px #330C0C;
   border-bottom: solid 20px #330C0C;
   border-style: double;
@@ -45,7 +39,7 @@ body {
 }
 
 .title {
-  background-color: #DCD0B8;
+  background-color: floralwhite;
   font-family: 'Raleway', sans-serif;
   padding: 0px 10px 1px 13px;
   width: 94%;
@@ -121,7 +115,7 @@ list-style-type: none;
 }
 
 .content-div, .about, .client, .contact, .experience, .presentations, .specializations{
-  background-color: #DCD0B8;
+  background-color: floralwhite;
   font-family: 'Raleway', sans-serif;
   padding: 1px 10px 10px 10px;
   margin-top: 25px;
