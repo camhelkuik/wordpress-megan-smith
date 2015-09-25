@@ -150,6 +150,14 @@ BlankSlate is distributed under the terms of the GNU GPL
     border-style: double;
     text-align: center;
   }
+  
+  .content-div ul{
+    text-align: left;
+  }
+  
+  .content-div a{
+    color: black;
+  }
 
   .about--pic {
     width: 100%;
