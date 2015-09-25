@@ -156,7 +156,7 @@ BlankSlate is distributed under the terms of the GNU GPL
   }
   
   .content-div a{
-    color: black;
+    color: green;
   }
 
   .about--pic {
@@ -316,9 +316,16 @@ BlankSlate is distributed under the terms of the GNU GPL
         border-style: double;
         margin-top: 16px;
         margin-bottom: -30px;
-      
     }
   
+    .contact {
+        margin-bottom: -62px;
+    }
+    
+    .client {
+      padding-top: 15px;
+    }
+    
     footer{
       margin-top: -13px;
     }
@@ -399,4 +406,7 @@ BlankSlate is distributed under the terms of the GNU GPL
     .title h1{
       font-size: 22px;
     }
+  }
+  .client a {
+      color: green;
   }
