@@ -513,3 +513,20 @@ BlankSlate is distributed under the terms of the GNU GPL
   #cssmenu > ul > li.has-sub > a:hover:before {
   	border-top: 5px solid #ffffff;
   }
+  
+  img.alignright.size-medium.wp-image-182 {
+      float: right;
+      position: relative;
+      top: 47px;
+  }
+  
+  img.aligncenter.wp-image-154 {
+    width: 100%;
+  }
+  
+  .content-div ul {
+      width: 80%;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+  }
