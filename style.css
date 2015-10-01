@@ -314,7 +314,7 @@ BlankSlate is distributed under the terms of the GNU GPL
     .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
         border: solid 25px #330C0C;
         border-style: double;
-        margin-top: 16px;
+        margin-top: -25px;
         margin-bottom: -30px;
     }
   
@@ -331,14 +331,14 @@ BlankSlate is distributed under the terms of the GNU GPL
     }
   
     .corner-left {
-      top: 67px;
+      top: 45px;
       border-bottom: 25px solid transparent;
       border-top: 0px solid transparent;
       border-right: 25px solid #330C0C;
     }
 
     .corner-right {
-      top: 67px;
+      top: 45px;
       border-bottom: 25px solid transparent;
       border-top: 0px solid transparent;
       border-left: 25px solid #330C0C;
@@ -436,17 +436,18 @@ BlankSlate is distributed under the terms of the GNU GPL
   	border: 1px solid;
   	border-radius: 5px;
   	width: auto;
-  	border-color: #080808;
+  	border-color: #587D2E;
+    text-align: center;
   }
   #cssmenu,
   #cssmenu > ul > li > ul > li a:hover {
-  	background: #3c3c3c;
-  	background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
-  	background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-  	background: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-  	background: -ms-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-  	background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  	background: #587D2E;
+  	background: -moz-linear-gradient(top, #587D2E 0%, #587D2E 100%);
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #587D2E));
+  	background: -webkit-linear-gradient(top, #587D2E 0%, #587D2E 100%);
+  	background: -o-linear-gradient(top, #587D2E 0%, #587D2E 100%);
+  	background: -ms-linear-gradient(top, #587D2E 0%, #587D2E 100%);
+  	background: linear-gradient(top, #587D2E 0%, #587D2E 100%);
   }
   #cssmenu > ul {
   	list-style: inside none;
@@ -468,15 +469,15 @@ BlankSlate is distributed under the terms of the GNU GPL
   	padding: 12px 20px;
   	text-align: center;
   	text-decoration: none;
-  	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
-  	font-weight: bold;
-  	font-size: 13px;
-  	font-family: Arial, Helvetica, sans-serif;
-  	border-right: 1px solid #080808;
+/*    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);*/
+/*    font-weight: bold;*/
+/*    font-size: 13px;*/
+    font-family: 'Raleway', sans-serif;
+/*    border-right: 1px solid #080808;*/
   	color: #ffffff;  
   }
   #cssmenu > ul > li > a:hover {
-  	background: #080808;
+  	background: #330C0C;
   	color: #ffffff;
   }
   #cssmenu > ul > li:first-child > a {
@@ -485,12 +486,12 @@ BlankSlate is distributed under the terms of the GNU GPL
   #cssmenu > ul > li > a:after {
   	content: '';
   	position: absolute;
-  	border-right: 1px solid;
+/*    border-right: 1px solid;*/
   	top: -1px;
   	bottom: -1px;
   	right: -2px;
   	z-index: 99;
-  	border-color: #3c3c3c;  
+/*    border-color: #3c3c3c;*/
   }
   
   #cssmenu ul li.has-sub:hover > a:after {
@@ -509,8 +510,8 @@ BlankSlate is distributed under the terms of the GNU GPL
   	top: 19px;
   }
   #cssmenu ul li.has-sub:hover > a {
-  	background: #3f3f3f;
-  	border-color: #3f3f3f;
+  	background: #330C0C;
+  	border-color: #330C0C;
   	padding-bottom: 13px;
   	padding-top: 13px;
   	top: -1px;
@@ -521,8 +522,8 @@ BlankSlate is distributed under the terms of the GNU GPL
   	display: block;
   }
   #cssmenu ul li.has-sub > a:hover {
-  	background: #3f3f3f;
-  	border-color: #3f3f3f;
+  	background: #330C0C;
+  	border-color: #330C0C;
   }
   #cssmenu ul li > ul,
   #cssmenu ul li > div {
@@ -531,7 +532,7 @@ BlankSlate is distributed under the terms of the GNU GPL
   	position: absolute;
   	top: 38px;
   	padding: 10px 0;
-  	background: #3f3f3f;
+  	background: #330C0C;
   	border-radius: 0 0 5px 5px;
   	z-index: 999;
   }
