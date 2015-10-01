@@ -331,14 +331,14 @@ BlankSlate is distributed under the terms of the GNU GPL
     }
   
     .corner-left {
-      top: 45px;
+      top: 44px;
       border-bottom: 25px solid transparent;
       border-top: 0px solid transparent;
       border-right: 25px solid #330C0C;
     }
 
     .corner-right {
-      top: 45px;
+      top: 44px;
       border-bottom: 25px solid transparent;
       border-top: 0px solid transparent;
       border-left: 25px solid #330C0C;
@@ -437,7 +437,6 @@ BlankSlate is distributed under the terms of the GNU GPL
   	border-radius: 5px;
   	width: auto;
   	border-color: #587D2E;
-    text-align: center;
   }
   #cssmenu,
   #cssmenu > ul > li > ul > li a:hover {
@@ -498,14 +497,14 @@ BlankSlate is distributed under the terms of the GNU GPL
   	top: 0;
   	bottom: 0;
   }
-  #cssmenu > ul > li.has-sub > a:before {
-  	content: '';
-  	position: absolute;
-  	top: 18px;
-  	right: 6px;
-  	border: 5px solid transparent;
-  	border-top: 5px solid #ffffff;
-  }
+  /*#cssmenu > ul > li.has-sub > a:before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    right: 6px;
+    border: 5px solid transparent;
+    border-top: 5px solid #ffffff;
+  }*/
   #cssmenu > ul > li.has-sub:hover > a:before {
   	top: 19px;
   }

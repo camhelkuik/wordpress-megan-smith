@@ -27,7 +27,7 @@
       <img class="border" src="http://localhost:8888/MeganSmith/wordpress-megan-smith/wp-content/uploads/2015/09/text-divider-diamond.png"> 
     </div>
 
-    <nav  id="menu" role="navigation" class="nav">
+    <nav  id="menu" role="navigation" class="nav" >
   
 <?php wp_nav_menu(array(
 	'menu' => 'Main Menu', 
@@ -37,7 +37,7 @@
      
     <span class="corner-left"></span>
     <span class="corner-right"></span>
-	</nav>
+  </nav>
  
 
   
