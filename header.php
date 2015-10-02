@@ -24,7 +24,7 @@
   
     <div class="title">
       <h1>Megan Smith Psychotherapy, PC</h1>
-      <img class="border" src="http://localhost:8888/MeganSmith/wordpress-megan-smith/wp-content/uploads/2015/09/text-divider-diamond.png"> 
+      <img class="border" src="http://localhost:8888/MeganSmith/wordpress-megan-smith/wp-content/uploads/2015/10/1024px-Decorative_text_divider_3.svg_.png">
     </div>
 
     <nav  id="menu" role="navigation" class="nav" >
