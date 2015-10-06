@@ -388,42 +388,51 @@ font-family: 'PT Sans Caption', sans-serif;
   }
 }
 
-   @media (max-width: 478px){
-  .corner-left {
-    top: 70px;
+@media (max-width: 543px){
+  #cssmenu > ul > li > a {
+      font-size: larger;
   }
-
+  
+  #cssmenu > ul > li > a {
+      padding: 12px 67px;
+  }
+  
   .corner-right {
-    top: 70px;
+      top: 92px;
+  }
+  
+  .corner-left {
+      top: 92px;
+  }
+  
+  img.aligncenter.wp-image-154 {
+      margin-top: 15px;
   }
 }
 
-  @media (max-width: 465px){
-    .nav li {
-        font-size: 12px;
-    }
+
+  @media (max-width: 387px){
     .corner-left {
-      top: 48px;
+      top: 138px;
     }
 
     .corner-right {
-      top: 48px;
+      top: 138px;
     }
   }
 
-  @media (max-width: 355px){
-    .title h1{
-      font-size: 25px;
-    }
-  
-    .nav li {
-      font-size: 10px;
-    }
-  }
 
-  @media (max-width: 312px){
+  @media (max-width: 310px){
     .title h1{
       font-size: 22px;
+    }
+    
+    .corner-left {
+      top: 184px;
+    }
+
+    .corner-right {
+      top: 184px;
     }
   }
   .client a {
