@@ -13,6 +13,7 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" type="text/css">
+ <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption|Raleway' rel='stylesheet' type='text/css'>
 
   <?php wp_head(); ?>
 </head>

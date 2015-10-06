@@ -62,7 +62,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 
   .title {
     background-color: floralwhite;
-    font-family: 'Raleway', sans-serif;
+font-family: 'PT Sans Caption', sans-serif;
     padding: 0px 10px 1px 13px;
     width: 94%;
     margin-left: auto;
@@ -75,6 +75,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 
   .title h1{
     margin-bottom: 5px;
+    font-family: 'PT Sans Caption', sans-serif;
   }
 
   .nav {
