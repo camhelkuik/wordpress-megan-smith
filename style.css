@@ -370,6 +370,24 @@ font-family: 'PT Sans Caption', sans-serif;
   }
 }
 
+@media (max-width: 618px){
+  #cssmenu > ul > li > a {
+    font-size: small;
+  }
+  
+  .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
+    margin-top: -3px;
+  }
+  
+  .corner-right {
+      top: 49px;
+  }
+  
+  .corner-left {
+      top: 49px;
+  }
+}
+
    @media (max-width: 478px){
   .corner-left {
     top: 70px;
